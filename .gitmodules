@@ -1,0 +1,9 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/rikiulirniam/AthenaAPI.git
+[submodule "client"]
+	path = client
+	url = https://github.com/rikiulirniam/AthenaClient.git
+[submodule "webhook"]
+	path = webhook
+	url = https://github.com/rikiulirniam/athena-webhook.git
