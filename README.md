@@ -1,10 +1,10 @@
-# 🏛️ ATHENA - Sistem PPDB & Verifikasi Siswa SMK Tunas Harapan
+#  ATHENA - Sistem PPDB & Verifikasi Siswa SMK Tunas Harapan
 
 **Athena** adalah platform Penerimaan Peserta Didik Baru (PPDB) terintegrasi untuk **SMK Tunas Harapan Pati**. Sistem ini mencakup pendaftaran online multi-step, pengiriman bukti pendaftaran berupa QR Code via Email otomatis, dashboard admin, verifikasi daftar ulang berbasis live camera QR scanner, dan integrasi webhook WhatsApp bot.
 
 ---
 
-## 🏗️ Arsitektur Proyek
+## Arsitektur Proyek
 
 Proyek ini terdiri dari 3 modul utama:
 
@@ -16,7 +16,7 @@ Proyek ini terdiri dari 3 modul utama:
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 - **Pendaftaran Calon Siswa (Multi-step Form):** Form pendaftaran interaktif 5 langkah (Data Pribadi, Tempat/Tanggal Lahir, Kontak & Agama, Data Orang Tua, Asal Sekolah SMP/MTs & Pilihan Jurusan).
 - **Pengiriman QR Code via Email:** Setelah mendaftar, calon siswa menerima email otomatis berisi bukti pendaftaran dan QR Code unik untuk verifikasi fisik di sekolah.
@@ -28,9 +28,9 @@ Proyek ini terdiri dari 3 modul utama:
 
 ---
 
-## 🚀 Panduan Instalasi & Menjalankan Aplikasi
+## Panduan Instalasi & Menjalankan Aplikasi
 
-### 📋 Prasyarat Sistem
+### Prasyarat Sistem
 - **PHP** >= 8.2 & **Composer**
 - **Node.js** >= 18.x & **npm**
 - **MySQL / MariaDB** (misal via XAMPP atau Laragon)
@@ -128,7 +128,7 @@ Proyek ini terdiri dari 3 modul utama:
 
 ---
 
-## 🔑 Akun Default Admin
+## Akun Default Admin
 
 Setelah menjalankan `php artisan migrate --seed`, akun admin default siap digunakan:
 
@@ -138,7 +138,7 @@ Setelah menjalankan `php artisan migrate --seed`, akun admin default siap diguna
 
 ---
 
-## 📂 Struktur Endpoint Utama Backend
+## Struktur Endpoint Utama Backend
 
 | Method | Endpoint | Auth | Keterangan |
 | :--- | :--- | :---: | :--- |
@@ -151,7 +151,7 @@ Setelah menjalankan `php artisan migrate --seed`, akun admin default siap diguna
 
 ---
 
-## 👥 Pengembang
+## Developed by
 
-- **Riki Maulana** & Tim PPDB SMK Tunas Harapan Pati
+- **Riki & Maulana** & Tim PPDB SMK Tunas Harapan Pati
 - © 2024 - 2026 SMK Tunas Harapan Pati
